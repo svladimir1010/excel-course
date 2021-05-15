@@ -14,6 +14,7 @@
         "google"
     ],
     "rules": {
+        "eol-last": "off",
         "semi": "off", //точка с запятой в конце       ,ki
         "arrow-parens": "off", //скобки внутри стрел функций
         "comma-dangle": "off", // запятые в конце
