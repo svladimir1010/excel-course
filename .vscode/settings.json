@@ -1,3 +1,19 @@
 {
-   "eslint.run": "onSave"
+    "eslint.run": "onSave",
+    //   "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "html.format.extraLiners": "",
+    "emmet.triggerExpansionOnTab": true,
+    "[javascript]": {
+        "editor.defaultFormatter": "dbaeumer.vscode-eslint"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "lonefy.vscode-JS-CSS-HTML-formatter"
+    },
+    "[scss]": {
+        "editor.defaultFormatter": "michelemelluso.code-beautifier"
+    },
+    "files.eol": "\n",
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    }
 }
